@@ -2,21 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const d = new Date("2015-03-25");
+  const currentDateTime =d.toLocaleString()
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       
+        
+          <h2>{currentDateTime}</h2>
+        
+       
       </header>
     </div>
   );
